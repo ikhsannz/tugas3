@@ -13,4 +13,16 @@ int main(){
 	cout<<"masukkan nilai atau angka:";
 	cin>>x;
 	cout<<"============================\n";
+	
+	if (x>0)
+	cout<<"angka "<<x<<" termasuk bilangan positif\n";
+	
+	else if (x==0)
+	cout<<"angka "<<x<<" termasuk bilangan nol\n";
+	
+	else if (x<0)
+	cout<<"angka "<<x<<" termasuk bilangan negatif\n";
+	
+	else 
+	cout<<"mohon masukkan angka dengan benar!!\n";
 }
