@@ -3,9 +3,10 @@
 using namespace std;
 
 int main(){
-	char q;
+	char q,yt;
 	double Ls,Lpp,p,l,a,t(2.5);
 
+	awal:
 	cout <<"=====================================\n";
 	cout <<"PROGRAM PERHITUNGAN LUAS BANGUN DATAR\n";
 	cout <<"=====================================\n";
@@ -36,4 +37,13 @@ if (q=='p'|| q=='P')
 	}
 	else
 	cout<<"kode yang anda masukkan salah\t\t"<<"\n";
+	
+	cout<<"Apakah anda ingin mengulang ? [Y/T] : ";
+	cin>>yt;
+	if(yt=='Y' || yt=='y')
+	{goto awal;}
+	if(yt=='T' || yt=='t')
+	{goto selesai;}
+	selesai:
+	cout<<"Terima Kasih";	
 }
