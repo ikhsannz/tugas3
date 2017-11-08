@@ -4,15 +4,17 @@ using namespace std;
 
 int main(){
 	int x;
+	char yt;
 	
-	cout<<"============================\n";
-	cout<<"PROGRAM MENENTUKAN BILANGAN\n";
-	cout<<"POSTIF ATAU NEGATIF ATAU NOL\n";
-	cout<<"============================\n";
+	awal:
+	cout<<"=======================================\n";
+	cout<<"    PROGRAM MENENTUKAN BILANGAN\n";
+	cout<<"    POSTIF ATAU NEGATIF ATAU NOL\n";
+	cout<<"=======================================\n";
 	
 	cout<<"masukkan nilai atau angka:";
 	cin>>x;
-	cout<<"============================\n";
+	cout<<"=======================================\n";
 	
 	if (x>0)
 	cout<<"angka "<<x<<" termasuk bilangan positif\n";
@@ -25,4 +27,14 @@ int main(){
 	
 	else 
 	cout<<"mohon masukkan angka dengan benar!!\n";
+	
+	cout<<"=======================================\n";
+	cout<<"Apakah anda ingin mengulang ? [Y/T] : ";
+	cin>>yt;
+	if(yt=='Y' || yt=='y')
+	{goto awal;}
+	if(yt=='T' || yt=='t')
+	{goto selesai;}
+	selesai:
+	cout<<"Terima Kasih";
 }
