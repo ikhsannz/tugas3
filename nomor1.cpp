@@ -12,4 +12,9 @@ int main(){
 	cout<<"masukan y\t:";
 	cin>>y;
 	
+	if(x<y)
+	hsl=y-x;
+	else
+	hsl=x-y;
+	
 }
