@@ -17,4 +17,8 @@ int main(){
 	jt=40+jkr;
 	gt=jt*gp;
 	gb=gt-(gt*15/100);
+	
+	cout<<"total jam kerja\t\t\t:"<<jt<<"\n";
+	cout<<"total gaji \t\t\t:"<<gt<<"\n";
+	cout<<"gaji bersih \t\t\t:"<<gb<<"\n";
 }
