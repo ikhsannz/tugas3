@@ -17,4 +17,5 @@ int main(){
 	else
 	hsl=x-y;
 	
+	cout<<"hasil\t\t:"<<hsl<<"\n";
 }
