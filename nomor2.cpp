@@ -16,5 +16,24 @@ int main(){
 	cout <<"silahkan masukkan kode yang dipilih:";
 	cin >>q;
 
-
+if (q=='p'|| q=='P')
+	{
+		cout<<"masukkan panjang\t\t:";
+		cin >>p;
+		cout<<"masukkan lebar\t\t\t:";
+		cin >>l;
+		Lpp=p*l;
+		cout<<"Luas persegi adalah\t\t:"<<Lpp<<"\n";
+	}
+	else if 	(q=='s'|| q=='S')
+	{
+		cout<<"masukkan alas\t\t\t:";
+		cin >>a;
+		cout<<"masukkan tinggi\t\t\t:";
+		cin >> t;
+		Ls=0.5*(a*t);
+		cout<<"luas segitiga adalah\t\t:"<<Ls<<"\n";
+	}
+	else
+	cout<<"kode yang anda masukkan salah\t\t"<<"\n";
 }
